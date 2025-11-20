@@ -1,0 +1,20 @@
+{
+  "name": "svg-to-font-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fantasticon": "^3.0.0",
+    "multer": "^2.0.2",
+    "svgpath": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
